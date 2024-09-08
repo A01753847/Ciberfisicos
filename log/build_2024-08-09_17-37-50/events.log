@@ -1,0 +1,115 @@
+[0.000000] (-) TimerEvent: {}
+[0.001600] (class_pkg) JobQueued: {'identifier': 'class_pkg', 'dependencies': OrderedDict()}
+[0.002243] (class_pkg) JobStarted: {'identifier': 'class_pkg'}
+[0.098965] (-) TimerEvent: {}
+[0.199615] (-) TimerEvent: {}
+[0.300375] (-) TimerEvent: {}
+[0.401058] (-) TimerEvent: {}
+[0.501736] (-) TimerEvent: {}
+[0.602443] (-) TimerEvent: {}
+[0.703094] (-) TimerEvent: {}
+[0.803701] (-) TimerEvent: {}
+[0.904295] (-) TimerEvent: {}
+[1.005059] (-) TimerEvent: {}
+[1.105861] (-) TimerEvent: {}
+[1.206663] (-) TimerEvent: {}
+[1.307389] (-) TimerEvent: {}
+[1.408120] (-) TimerEvent: {}
+[1.508753] (-) TimerEvent: {}
+[1.609430] (-) TimerEvent: {}
+[1.710090] (-) TimerEvent: {}
+[1.810746] (-) TimerEvent: {}
+[1.911385] (-) TimerEvent: {}
+[2.012021] (-) TimerEvent: {}
+[2.112745] (-) TimerEvent: {}
+[2.213443] (-) TimerEvent: {}
+[2.314096] (-) TimerEvent: {}
+[2.414776] (-) TimerEvent: {}
+[2.515429] (-) TimerEvent: {}
+[2.616142] (-) TimerEvent: {}
+[2.716884] (-) TimerEvent: {}
+[2.817504] (-) TimerEvent: {}
+[2.918262] (-) TimerEvent: {}
+[3.018953] (-) TimerEvent: {}
+[3.119671] (-) TimerEvent: {}
+[3.220292] (-) TimerEvent: {}
+[3.321031] (-) TimerEvent: {}
+[3.421659] (-) TimerEvent: {}
+[3.522304] (-) TimerEvent: {}
+[3.622931] (-) TimerEvent: {}
+[3.723569] (-) TimerEvent: {}
+[3.824275] (-) TimerEvent: {}
+[3.925068] (-) TimerEvent: {}
+[4.026259] (-) TimerEvent: {}
+[4.080871] (class_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ros/Workspaces/course_ws/build/class_pkg/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ros/Workspaces/course_ws/build/class_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ros', 'SSH_CLIENT': '192.168.3.1 55284 22', 'LC_TIME': 'es_MX.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ros', 'OLDPWD': '/home/ros/Workspaces/course_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'es_MX.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator2ca99f9887f2e75578a20e2d2ebb4e9f7', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ros', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'XAUTHORITHY': '/home/ros/.Xauthorithy', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ros/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'es_MX.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'es_MX.UTF-8', 'XAUTHORITY': '/home/ros/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_MX.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:faff8e56-6a27-4469-9ab8-aa9b29c1c862', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_MX.UTF-8', 'LC_IDENTIFICATION': 'es_MX.UTF-8', 'PWD': '/home/ros/Workspaces/course_ws/build/class_pkg', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.3.1 55284 192.168.3.105 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ros/Workspaces/course_ws/build/class_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/Workspaces/course_ws/install/class_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_MX.UTF-8', 'LC_PAPER': 'es_MX.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[4.126393] (-) TimerEvent: {}
+[4.227068] (-) TimerEvent: {}
+[4.327737] (-) TimerEvent: {}
+[4.428469] (-) TimerEvent: {}
+[4.529143] (-) TimerEvent: {}
+[4.629826] (-) TimerEvent: {}
+[4.730511] (-) TimerEvent: {}
+[4.831123] (-) TimerEvent: {}
+[4.931764] (-) TimerEvent: {}
+[5.032654] (-) TimerEvent: {}
+[5.133404] (-) TimerEvent: {}
+[5.234031] (-) TimerEvent: {}
+[5.334766] (-) TimerEvent: {}
+[5.435380] (-) TimerEvent: {}
+[5.535996] (-) TimerEvent: {}
+[5.636613] (-) TimerEvent: {}
+[5.705830] (class_pkg) StdoutLine: {'line': b'running develop\n'}
+[5.707814] (class_pkg) StderrLine: {'line': b'/home/ros/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[5.708401] (class_pkg) StderrLine: {'line': b'!!\n'}
+[5.708793] (class_pkg) StderrLine: {'line': b'\n'}
+[5.709161] (class_pkg) StderrLine: {'line': b'        ********************************************************************************\n'}
+[5.709519] (class_pkg) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[5.709879] (class_pkg) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[5.710304] (class_pkg) StderrLine: {'line': b'        standards-based tools.\n'}
+[5.710680] (class_pkg) StderrLine: {'line': b'\n'}
+[5.711038] (class_pkg) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[5.711389] (class_pkg) StderrLine: {'line': b'        ********************************************************************************\n'}
+[5.711768] (class_pkg) StderrLine: {'line': b'\n'}
+[5.712106] (class_pkg) StderrLine: {'line': b'!!\n'}
+[5.712442] (class_pkg) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[5.736782] (-) TimerEvent: {}
+[5.837404] (-) TimerEvent: {}
+[5.938053] (-) TimerEvent: {}
+[6.038734] (-) TimerEvent: {}
+[6.139389] (-) TimerEvent: {}
+[6.240110] (-) TimerEvent: {}
+[6.340744] (-) TimerEvent: {}
+[6.441397] (-) TimerEvent: {}
+[6.542019] (-) TimerEvent: {}
+[6.642718] (-) TimerEvent: {}
+[6.743333] (-) TimerEvent: {}
+[6.818747] (class_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[6.819471] (class_pkg) StdoutLine: {'line': b'creating class_pkg.egg-info\n'}
+[6.843464] (-) TimerEvent: {}
+[6.892456] (class_pkg) StdoutLine: {'line': b'writing class_pkg.egg-info/PKG-INFO\n'}
+[6.894638] (class_pkg) StdoutLine: {'line': b'writing dependency_links to class_pkg.egg-info/dependency_links.txt\n'}
+[6.895703] (class_pkg) StdoutLine: {'line': b'writing entry points to class_pkg.egg-info/entry_points.txt\n'}
+[6.896622] (class_pkg) StdoutLine: {'line': b'writing requirements to class_pkg.egg-info/requires.txt\n'}
+[6.897254] (class_pkg) StdoutLine: {'line': b'writing top-level names to class_pkg.egg-info/top_level.txt\n'}
+[6.897927] (class_pkg) StdoutLine: {'line': b"writing manifest file 'class_pkg.egg-info/SOURCES.txt'\n"}
+[6.943606] (-) TimerEvent: {}
+[7.044220] (-) TimerEvent: {}
+[7.051458] (class_pkg) StdoutLine: {'line': b"reading manifest file 'class_pkg.egg-info/SOURCES.txt'\n"}
+[7.054796] (class_pkg) StdoutLine: {'line': b"writing manifest file 'class_pkg.egg-info/SOURCES.txt'\n"}
+[7.134930] (class_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[7.136911] (class_pkg) StdoutLine: {'line': b'Creating /home/ros/Workspaces/course_ws/install/class_pkg/lib/python3.10/site-packages/class-pkg.egg-link (link to .)\n'}
+[7.140801] (class_pkg) StdoutLine: {'line': b'Installing custom_talker script to /home/ros/Workspaces/course_ws/install/class_pkg/lib/class_pkg\n'}
+[7.142425] (class_pkg) StdoutLine: {'line': b'\n'}
+[7.143053] (class_pkg) StdoutLine: {'line': b'Installed /home/ros/Workspaces/course_ws/build/class_pkg\n'}
+[7.143493] (class_pkg) StdoutLine: {'line': b'running symlink_data\n'}
+[7.144059] (class_pkg) StdoutLine: {'line': b'creating /home/ros/Workspaces/course_ws/install/class_pkg/share/ament_index\n'}
+[7.144681] (-) TimerEvent: {}
+[7.145085] (class_pkg) StdoutLine: {'line': b'creating /home/ros/Workspaces/course_ws/install/class_pkg/share/ament_index/resource_index\n'}
+[7.145804] (class_pkg) StdoutLine: {'line': b'creating /home/ros/Workspaces/course_ws/install/class_pkg/share/ament_index/resource_index/packages\n'}
+[7.146460] (class_pkg) StdoutLine: {'line': b'symbolically linking /home/ros/Workspaces/course_ws/build/class_pkg/resource/class_pkg -> /home/ros/Workspaces/course_ws/install/class_pkg/share/ament_index/resource_index/packages\n'}
+[7.147381] (class_pkg) StdoutLine: {'line': b'symbolically linking /home/ros/Workspaces/course_ws/build/class_pkg/package.xml -> /home/ros/Workspaces/course_ws/install/class_pkg/share/class_pkg\n'}
+[7.245008] (-) TimerEvent: {}
+[7.299733] (class_pkg) CommandEnded: {'returncode': 0}
+[7.345123] (-) TimerEvent: {}
+[7.373958] (class_pkg) JobEnded: {'identifier': 'class_pkg', 'rc': 0}
+[7.376869] (-) EventReactorShutdown: {}

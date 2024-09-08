@@ -1,0 +1,30 @@
+[4.652s] Invoking command in '/home/ros/Workspaces/course_ws/build/class_pkg': PYTHONPATH=/home/ros/Workspaces/course_ws/build/class_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/Workspaces/course_ws/install/class_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ros/Workspaces/course_ws/build/class_pkg/build --no-deps symlink_data
+[6.295s] running develop
+[6.297s] /home/ros/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[6.298s] !!
+[6.298s] 
+[6.299s]         ********************************************************************************
+[6.299s]         Please avoid running ``setup.py`` and ``easy_install``.
+[6.299s]         Instead, use pypa/build, pypa/installer or other
+[6.300s]         standards-based tools.
+[6.300s] 
+[6.300s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[6.301s]         ********************************************************************************
+[6.301s] 
+[6.301s] !!
+[6.302s]   easy_install.initialize_options(self)
+[7.450s] running egg_info
+[7.524s] writing class_pkg.egg-info/PKG-INFO
+[7.527s] writing dependency_links to class_pkg.egg-info/dependency_links.txt
+[7.528s] writing entry points to class_pkg.egg-info/entry_points.txt
+[7.529s] writing requirements to class_pkg.egg-info/requires.txt
+[7.530s] writing top-level names to class_pkg.egg-info/top_level.txt
+[7.687s] reading manifest file 'class_pkg.egg-info/SOURCES.txt'
+[7.691s] writing manifest file 'class_pkg.egg-info/SOURCES.txt'
+[7.774s] running build_ext
+[7.776s] Creating /home/ros/Workspaces/course_ws/install/class_pkg/lib/python3.10/site-packages/class-pkg.egg-link (link to .)
+[7.780s] Installing custom_talker script to /home/ros/Workspaces/course_ws/install/class_pkg/lib/class_pkg
+[7.781s] 
+[7.782s] Installed /home/ros/Workspaces/course_ws/build/class_pkg
+[7.782s] running symlink_data
+[7.934s] Invoked command in '/home/ros/Workspaces/course_ws/build/class_pkg' returned '0': PYTHONPATH=/home/ros/Workspaces/course_ws/build/class_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/Workspaces/course_ws/install/class_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ros/Workspaces/course_ws/build/class_pkg/build --no-deps symlink_data

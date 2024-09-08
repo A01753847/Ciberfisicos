@@ -1,0 +1,31 @@
+[3.635s] Invoking command in '/home/ros/Workspaces/course_ws/build/class_pkg': PYTHONPATH=/home/ros/Workspaces/course_ws/build/class_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/Workspaces/course_ws/install/class_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ros/Workspaces/course_ws/build/class_pkg/build --no-deps symlink_data
+[5.281s] running develop
+[5.282s] /home/ros/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[5.283s] !!
+[5.283s] 
+[5.284s]         ********************************************************************************
+[5.284s]         Please avoid running ``setup.py`` and ``easy_install``.
+[5.284s]         Instead, use pypa/build, pypa/installer or other
+[5.285s]         standards-based tools.
+[5.285s] 
+[5.285s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[5.286s]         ********************************************************************************
+[5.286s] 
+[5.286s] !!
+[5.287s]   easy_install.initialize_options(self)
+[6.423s] running egg_info
+[6.497s] writing class_pkg.egg-info/PKG-INFO
+[6.500s] writing dependency_links to class_pkg.egg-info/dependency_links.txt
+[6.501s] writing entry points to class_pkg.egg-info/entry_points.txt
+[6.502s] writing requirements to class_pkg.egg-info/requires.txt
+[6.503s] writing top-level names to class_pkg.egg-info/top_level.txt
+[6.659s] reading manifest file 'class_pkg.egg-info/SOURCES.txt'
+[6.663s] writing manifest file 'class_pkg.egg-info/SOURCES.txt'
+[6.744s] running build_ext
+[6.745s] Creating /home/ros/Workspaces/course_ws/install/class_pkg/lib/python3.10/site-packages/class-pkg.egg-link (link to .)
+[6.748s] Installing custom_listener script to /home/ros/Workspaces/course_ws/install/class_pkg/lib/class_pkg
+[6.749s] Installing custom_talker script to /home/ros/Workspaces/course_ws/install/class_pkg/lib/class_pkg
+[6.751s] 
+[6.751s] Installed /home/ros/Workspaces/course_ws/build/class_pkg
+[6.752s] running symlink_data
+[6.904s] Invoked command in '/home/ros/Workspaces/course_ws/build/class_pkg' returned '0': PYTHONPATH=/home/ros/Workspaces/course_ws/build/class_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/Workspaces/course_ws/install/class_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ros/Workspaces/course_ws/build/class_pkg/build --no-deps symlink_data
