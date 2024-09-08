@@ -1,0 +1,3 @@
+[console_scripts]
+custom_listener = class_pkg.custom_listener:main
+custom_talker = class_pkg.custom_talker:main
